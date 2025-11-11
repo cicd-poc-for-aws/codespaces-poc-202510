@@ -1,0 +1,17 @@
+{
+    "name": "react-spring-monorepo",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "updateContentCommand": "apt-get update",
+    "postCreateCommand": "bash .devcontainer/post-create.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-typescript-next",
+                "vscjava.vscode-java-pack",
+                "mhudson.git-graph",
+                "eamodio.gitlens",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    }
+}
